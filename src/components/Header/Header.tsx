@@ -13,7 +13,7 @@ import {
 const MENU_ITEMS = [
   {
     name: '自分の記録',
-    url: '/my-records'
+    url: '/my-record'
   },
   {
     name: '体重グラフ',
@@ -57,7 +57,7 @@ const Header = () => {
         <div className="hidden md:flex text-light text-[16px] leading-[23px] [&>div]:min-w-[160px]">
           <div>
             <Link
-              to="/my-records"
+              to="/my-record"
               className="flex items-center gap-x-2 hover:text-primary-400"
             >
               <MemoIcon />

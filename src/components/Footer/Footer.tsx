@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="mt-auto">
       <div className="bg-dark-500 mt-[64px]">
         <div className="main-container py-[56px]">
-          <div className="flex flex-wrap gap-x-[25px] lg:gap-x-[45px] text-light text-[11px] leading-4 tracking-[0.03px]">
+          <div className="flex flex-wrap gap-x-[25px] gap-y-4 lg:gap-x-[45px] text-light text-[11px] leading-4 tracking-[0.03px]">
             <div>
               <Link to="" className="hover:text-primary-400">
                 <span>会員登録</span>

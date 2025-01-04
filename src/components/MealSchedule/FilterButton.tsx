@@ -19,7 +19,7 @@ const FilterButton = ({ item, handleFilter }: FilterButtonProps) => {
   return (
     <button className="relative" onClick={() => handleFilter(id)}>
       <img src={hexagonalImg} alt="filter" />
-      <span className="absolute top-2/4 left-2/4 -translate-y-1/2 -translate-x-1/2 flex flex-col items-center -mt-[1px]">
+      <span className="absoluteCenter flex flex-col items-center -mt-[1px]">
         {icon === 'knife' && <KnifeIcon />}
         {icon === 'cup' && <CupIcon />}
         <span className="font-inter text-[20px] leading-6 text-light font-normal">

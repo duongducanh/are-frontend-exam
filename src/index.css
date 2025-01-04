@@ -19,4 +19,16 @@
   .primary-btn {
     @apply bg-primary-300-400 text-light font-light text-[18px] leading-[26px] px-3 h-[56px] min-w-[296px] rounded-md;
   }
+
+  .absoluteCenter {
+    @apply absolute top-2/4 left-2/4 -translate-y-1/2 -translate-x-1/2;
+  }
+
+  .recommendTitle {
+    @apply font-inter font-normal text-primary-300 text-[25px] leading-[30px] tracking-[0.13px];
+  }
+
+  .recommendSubtitle {
+    @apply text-[14px] leading-[20px] text-light px-3 py-0.5 bg-primary-400 min-w-[160px];
+  }
 }

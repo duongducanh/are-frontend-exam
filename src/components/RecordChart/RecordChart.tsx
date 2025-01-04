@@ -10,6 +10,7 @@ import {
   Legend
 } from 'chart.js';
 import { Line } from 'react-chartjs-2';
+import { RecordChartProps } from '../../types/record';
 
 ChartJS.register(
   CategoryScale,
@@ -21,7 +22,7 @@ ChartJS.register(
   Legend
 );
 
-const RecordChart = () => {
+const RecordChart = ({ recordData }: RecordChartProps) => {
   const options = {
     responsive: true,
     plugins: {
@@ -55,8 +56,8 @@ const RecordChart = () => {
     },
     layout: {
       padding: {
-        left: 40,
-        right: 40,
+        left: 25,
+        right: 25,
         top: 0,
         bottom: 0
       }
@@ -80,20 +81,7 @@ const RecordChart = () => {
 
   const data = {
     labels,
-    datasets: [
-      {
-        label: 'Record 1',
-        data: [90, 87, 70, 83, 75, 68, 75, 65, 60, 55, 50, 55],
-        borderColor: '#FFCC21',
-        backgroundColor: '#FFCC21'
-      },
-      {
-        label: 'Record 2',
-        data: [90, 85, 76, 73, 70, 66, 64, 55, 50, 48, 45, 40],
-        borderColor: '#8FE9D0',
-        backgroundColor: '#8FE9D0'
-      }
-    ]
+    ...recordData
   };
 
   return (

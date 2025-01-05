@@ -3,7 +3,7 @@ import RecordChart from '../../components/RecordChart';
 import mainMealImg from '../../assets/images/main-meal-banner.png';
 import mainPercentImg from '../../assets/images/main-percent.svg';
 import MealSchedule from '../../components/MealSchedule';
-import { CHART_DATA } from '../../mock/recordData';
+import { CHART_DATA } from '../../mock/chartData';
 
 const Home = () => {
   return (

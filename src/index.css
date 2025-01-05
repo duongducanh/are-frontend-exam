@@ -17,7 +17,7 @@
   }
 
   .primary-btn {
-    @apply bg-primary-300-400 text-light font-light text-[18px] leading-[26px] px-3 h-[56px] min-w-[296px] rounded-md;
+    @apply bg-primary-300-400 text-light font-light text-[18px] leading-[26px] px-5 h-[56px] min-w-[296px] rounded-md;
   }
 
   .absoluteCenter {
@@ -30,5 +30,27 @@
 
   .recommendSubtitle {
     @apply text-[14px] leading-[20px] text-light px-3 py-0.5 bg-primary-400 min-w-[160px];
+  }
+}
+
+@layer utilities {
+  .scrollbar-custom::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-track {
+    background: #777777;
+
+    border-radius: 999px;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-thumb {
+    background: #ffcc21;
+    border-radius: 999px;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-thumb:hover {
+    background: #ff963c;
+    border-radius: 999px;
   }
 }

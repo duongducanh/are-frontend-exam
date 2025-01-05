@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import RecordChart from '../RecordChart';
 import { RecordChartDataTypes } from '../../types/record';
-import { CHART_DATA } from '../../mock/recordData';
+import { CHART_DATA } from '../../mock/chartData';
 
 const TIME_FILTER = [
   { id: 'day', title: '日' },
@@ -22,9 +22,9 @@ const BodyRecord = () => {
   };
 
   return (
-    <div className="bg-dark-600 py-4 px-6">
+    <div className="bg-dark-600 py-4 px-6 mb-[56px]">
       <div className="flex text-light">
-        <div className="inline-block w-[76px] mr-2.5 font-inter font-normal text-[15px] leading-[18px] tracking-[0.15px]">
+        <div className="inline-block w-[76px] mr-[21px] font-inter font-normal text-[15px] leading-[18px] tracking-[0.15px]">
           BODY RECORD
         </div>
         <div className="font-inter font-normal text-[22px] leading-[27px] tracking-[0.11px]">

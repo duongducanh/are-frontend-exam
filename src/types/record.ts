@@ -6,6 +6,7 @@ interface Dataset {
 }
 
 export interface RecordChartDataTypes {
+  labels: string[];
   datasets: Dataset[];
 }
 

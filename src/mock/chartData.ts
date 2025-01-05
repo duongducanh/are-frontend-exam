@@ -1,5 +1,19 @@
 export const CHART_DATA = {
   day: {
+    labels: [
+      '2 時',
+      '3 時',
+      '4 時',
+      '5 時',
+      '6 時',
+      '7 時',
+      '8 時',
+      '9 時',
+      '10 時',
+      '11 時',
+      '12 時',
+      '13 時'
+    ],
     datasets: [
       {
         label: 'Record 1',
@@ -16,6 +30,20 @@ export const CHART_DATA = {
     ]
   },
   week: {
+    labels: [
+      '6 日',
+      '7 日',
+      '8 日',
+      '9 日',
+      '10 日',
+      '11 日',
+      '12 日',
+      '13 日',
+      '14 日',
+      '15 日',
+      '16 日',
+      '17 日'
+    ],
     datasets: [
       {
         label: 'Record 1',
@@ -32,6 +60,20 @@ export const CHART_DATA = {
     ]
   },
   month: {
+    labels: [
+      '2 週',
+      '3 週',
+      '4 週',
+      '1 週',
+      '2 週',
+      '3 週',
+      '4 週',
+      '1 週',
+      '2 週',
+      '3 週',
+      '4 週',
+      '1 週'
+    ],
     datasets: [
       {
         label: 'Record 1',
@@ -48,6 +90,20 @@ export const CHART_DATA = {
     ]
   },
   year: {
+    labels: [
+      '6 月',
+      '7 月',
+      '8 月',
+      '9 月',
+      '10 月',
+      '11 月',
+      '12 月',
+      '1 月',
+      '2 月',
+      '3 月',
+      '4 月',
+      '5 月'
+    ],
     datasets: [
       {
         label: 'Record 1',

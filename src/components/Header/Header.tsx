@@ -50,7 +50,7 @@ const Header = () => {
 
   return (
     <header className="bg-dark-500">
-      <div className="main-container max-w-[974px] flex justify-between items-center gap-x-[7px] py-3">
+      <div className="main-container flex justify-between items-center gap-x-[7px] py-3">
         <Link to="/" className="mr-auto">
           <img src={logo} alt="logo" className="relative top-[4px]" />
         </Link>

@@ -40,8 +40,10 @@ const MyRecord = () => {
                 className="grayscale-[35%]"
               />
               <div className="absoluteCenter w-full text-center flex flex-col items-center gap-2.5">
-                <div className="recommendTitle">{item.recommendTitle}</div>
-                <div className="recommendSubtitle">
+                <div className="font-inter font-normal text-primary-300 text-[25px] leading-[30px] tracking-[0.13px]">
+                  {item.recommendTitle}
+                </div>
+                <div className="text-[14px] leading-[20px] text-light px-3 py-0.5 bg-primary-400 min-w-[160px]">
                   {item.recommendSubtitle}
                 </div>
               </div>
